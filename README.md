@@ -1,9 +1,8 @@
+Project Description
 
-This Flutter project is a mobile QR code generator application. It allows users to create QR codes for two distinct purposes:
+This Flutter project is a mobile application for generating QR codes.It lets users create QR codes for two main purposes:
 
-Student Information: Users can enter a student's name and class to generate a unique QR code containing that data.
+1. Student Information: Generate a QR code by entering a student`s name and class.
+2. Domain Links: Enter a website domain(for example, www.github.com) to create a QR code that opens the site when scanned.
 
-Domain Names: Users can input a website domain (like www.example.com) to generate a QR code that, when scanned, directs to that URL.
-
-The app uses the qr_flutter package to handle the QR code generation and displays the result directly on the screen. The user interface is simple,
-featuring separate sections for each type of QR code generation.
+The app uses qr_flutter package to generate and display QR codes on the screen. Its interface is straighforward, with separate sections dedicated to each QR code type for a clean and simple user experince.
