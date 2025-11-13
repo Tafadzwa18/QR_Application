@@ -130,7 +130,7 @@ class _QRCodeGeneratorPageState extends State<QRCodeGeneratorPage> {
                 child: Text(
                   _qrData,
                   style: const TextStyle(
-                    fontSize: 16
+                    fontSize: 17
                   ),
                   textAlign: TextAlign.center,
                 ),
