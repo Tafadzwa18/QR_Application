@@ -25,7 +25,7 @@ class _StudentScreenState extends State<StudentScreen> {
           children: [
             buildInputField("STUDENT NAME", "Enter full name", _nameController),
             const SizedBox(height: 20),
-            buildInputField("CLASS", "e.g. Grade 10-A", _classController),
+            buildInputField("CLASS", "e.g. Grade 7-A", _classController),
             const SizedBox(height: 32),
             _buildActionBtn(),
             if (_qrData.isNotEmpty) buildQRDisplay(_qrData, _screenshotController, context),
